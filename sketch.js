@@ -1,5 +1,6 @@
 //0501bank
 //joseManuel263
+//https://josemanuel263.github.io/trex-v.2/
 var PLAY = 1;
 var END = 0;
 var gameState = PLAY;
@@ -72,7 +73,7 @@ function setup() {
   cloudsGroup = createGroup();
 
   
-  trex.setCollider("rectangle",0,0,250,100);
+  trex.setCollider("rectangle",0,0,100,100);
   trex.debug = true;
   
   score = 0;
@@ -221,4 +222,3 @@ function spawnClouds() {
     cloudsGroup.add(cloud);
   }
 }
-
